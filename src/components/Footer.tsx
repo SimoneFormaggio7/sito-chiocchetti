@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         {/* Upper Section */}
         <div className="py-20 border-b border-neutral-800">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-16 text-center md:text-left">
             {/* Logo & Description */}
             <div className="lg:col-span-5">
               <Image
@@ -27,14 +27,13 @@ export default function Footer() {
                 alt="Studio Chiocchetti Architettura"
                 width={160}
                 height={60}
-                className="h-12 w-auto brightness-0 invert opacity-90"
+                className="h-12 w-auto brightness-0 invert opacity-90 mx-auto md:mx-0"
               />
-              <p className="mt-8 text-neutral-400 text-sm leading-relaxed max-w-sm font-light">
+              <p className="mt-8 text-neutral-400 text-sm leading-relaxed max-w-sm font-light mx-auto md:mx-0">
                 Dal 1989, trasformiamo visioni in spazi costruiti.
                 Progettiamo architetture che durano nel tempo,
                 unendo funzionalità, estetica e sostenibilità.
               </p>
-
             </div>
 
             {/* Navigation */}
@@ -79,7 +78,7 @@ export default function Footer() {
                 </a>
                 <a
                   href="mailto:studio@architettochiocchetti.it"
-                  className="block text-neutral-400 hover:text-white transition-colors duration-300 text-sm font-light"
+                  className="block text-neutral-400 hover:text-white transition-colors duration-300 text-sm font-light break-all md:break-normal"
                 >
                   studio@architettochiocchetti.it
                 </a>
@@ -89,7 +88,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="py-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="py-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center">
           <p className="text-neutral-600 text-xs tracking-wider font-light">
             © {new Date().getFullYear()} Studio Chiocchetti Architettura
           </p>

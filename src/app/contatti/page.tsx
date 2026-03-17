@@ -67,7 +67,7 @@ export default function ContattiPage() {
               </p>
 
               {/* Stats */}
-              <div className="flex gap-12 mt-8 pt-8 border-t border-neutral-800 lg:ml-6">
+              <div className="flex gap-8 md:gap-12 mt-8 pt-8 border-t border-neutral-800 lg:ml-6">
                 <div>
                   <span className="text-4xl font-extralight text-white">24h</span>
                   <span className="block text-neutral-500 text-xs tracking-wider mt-1">
@@ -118,7 +118,7 @@ export default function ContattiPage() {
               <span className="text-neutral-400 text-xs tracking-[0.2em] uppercase">
                 Email
               </span>
-              <p className="text-neutral-900 font-light mt-2 group-hover:translate-x-2 transition-transform duration-300">
+              <p className="text-neutral-900 font-light mt-2 group-hover:translate-x-2 transition-transform duration-300 break-all md:break-normal text-sm md:text-base">
                 studio@architettochiocchetti.it
               </p>
               <div className="absolute top-4 right-4 w-6 h-6 border-t border-r border-neutral-200 group-hover:border-neutral-400 group-hover:w-8 group-hover:h-8 transition-all duration-300" />

@@ -47,9 +47,16 @@ export default function Progetti() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const sliderRef = useRef<HTMLDivElement>(null);
 
+  const getCardWidth = () => {
+    if (!sliderRef.current) return 300;
+    const width = sliderRef.current.offsetWidth;
+    if (width < 768) return width * 0.75;
+    return width / 3.5;
+  };
+
   const scrollToIndex = (index: number) => {
     if (sliderRef.current) {
-      const cardWidth = sliderRef.current.offsetWidth / 3.5;
+      const cardWidth = getCardWidth();
       sliderRef.current.scrollTo({
         left: index * cardWidth,
         behavior: "smooth",
@@ -60,7 +67,7 @@ export default function Progetti() {
 
   const handleScroll = () => {
     if (sliderRef.current) {
-      const cardWidth = sliderRef.current.offsetWidth / 3.5;
+      const cardWidth = getCardWidth();
       const newIndex = Math.round(sliderRef.current.scrollLeft / cardWidth);
       setCurrentIndex(newIndex);
     }
