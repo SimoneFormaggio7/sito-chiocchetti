@@ -1,0 +1,21 @@
+{
+  "name": "Studio Chiocchetti Architettura",
+  "short_name": "Chiocchetti",
+  "description": "Studio di architettura a Crescentino (VC). Dal 1989 progettazione architettonica e urbanistica.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
