@@ -59,7 +59,7 @@ export default function ContattiHome() {
                     <span className="text-neutral-500 text-xs tracking-[0.2em] uppercase block mb-2">
                       Email
                     </span>
-                    <span className="text-white text-base md:text-xl font-light group-hover:text-neutral-300 transition-colors duration-500 break-all md:break-normal">
+                    <span className="text-white text-sm md:text-xl font-light group-hover:text-neutral-300 transition-colors duration-500">
                       studio@architettochiocchetti.it
                     </span>
                   </div>

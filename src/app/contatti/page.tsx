@@ -118,7 +118,7 @@ export default function ContattiPage() {
               <span className="text-neutral-400 text-xs tracking-[0.2em] uppercase">
                 Email
               </span>
-              <p className="text-neutral-900 font-light mt-2 group-hover:translate-x-2 transition-transform duration-300 break-all md:break-normal text-sm md:text-base">
+              <p className="text-neutral-900 font-light mt-2 group-hover:translate-x-2 transition-transform duration-300 text-xs md:text-base">
                 studio@architettochiocchetti.it
               </p>
               <div className="absolute top-4 right-4 w-6 h-6 border-t border-r border-neutral-200 group-hover:border-neutral-400 group-hover:w-8 group-hover:h-8 transition-all duration-300" />

@@ -78,7 +78,7 @@ export default function Footer() {
                 </a>
                 <a
                   href="mailto:studio@architettochiocchetti.it"
-                  className="block text-neutral-400 hover:text-white transition-colors duration-300 text-sm font-light break-all md:break-normal"
+                  className="block text-neutral-400 hover:text-white transition-colors duration-300 text-xs md:text-sm font-light"
                 >
                   studio@architettochiocchetti.it
                 </a>
