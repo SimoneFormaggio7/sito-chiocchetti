@@ -75,7 +75,7 @@ export default function MetodoPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative min-h-[45vh] flex items-center px-6 py-32 bg-neutral-950 overflow-hidden">
+      <section className="relative min-h-[45vh] flex items-center px-6 pt-40 pb-20 md:py-32 bg-neutral-950 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-20 left-10 w-96 h-96 border border-white rounded-full" />
