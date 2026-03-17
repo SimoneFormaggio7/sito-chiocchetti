@@ -163,7 +163,7 @@ export default function CiHannoScelto() {
         <AnimatedSection delay={400}>
           <div className="text-center mt-12">
             <span className="text-neutral-400 text-sm tracking-wider">
-              Oltre <span className="text-neutral-900 font-medium">{loghi.length}</span> enti e aziende ci hanno affidato i loro progetti
+              Questi sono solo alcuni degli enti e delle aziende che ci hanno affidato i loro progetti
             </span>
           </div>
         </AnimatedSection>

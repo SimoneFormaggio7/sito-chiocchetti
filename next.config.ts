@@ -23,6 +23,39 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ["react-icons"],
   },
+  // Cache headers
+  headers: async () => [
+    {
+      // Font, immagini e asset statici: cache lunga (1 anno)
+      source: "/images/:path*",
+      headers: [
+        {
+          key: "Cache-Control",
+          value: "public, max-age=31536000, immutable",
+        },
+      ],
+    },
+    {
+      // File statici Next.js (_next/static): già gestiti da Next.js con hash, cache lunga
+      source: "/_next/static/:path*",
+      headers: [
+        {
+          key: "Cache-Control",
+          value: "public, max-age=31536000, immutable",
+        },
+      ],
+    },
+    {
+      // Pagine HTML: cache breve con revalidazione
+      source: "/:path*",
+      headers: [
+        {
+          key: "Cache-Control",
+          value: "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400",
+        },
+      ],
+    },
+  ],
 };
 
 export default nextConfig;
