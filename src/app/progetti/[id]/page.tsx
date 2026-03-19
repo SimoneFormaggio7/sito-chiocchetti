@@ -336,7 +336,7 @@ export default async function ProgettoPage({
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-extralight text-neutral-900 mt-4 mb-8">
                 Una visione che prende forma
               </h2>
-              <p className="text-neutral-600 text-lg leading-relaxed font-light">
+              <p className="text-neutral-600 text-lg leading-relaxed font-light text-justify">
                 {progetto.description}
               </p>
             </div>

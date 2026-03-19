@@ -123,7 +123,7 @@ export default function StudioPage() {
               Un percorso lungo oltre trent&apos;anni
             </h2>
 
-            <div className="space-y-8 text-neutral-600 leading-relaxed font-light text-lg">
+            <div className="space-y-8 text-neutral-600 leading-relaxed font-light text-lg text-justify">
               <p>
                 Lo <strong className="font-medium text-neutral-900">Studio Chiocchetti</strong>,
                 fondato nel 1989 dall&apos;Architetto Maurizio Chiocchetti, opera in ambiti che
@@ -162,7 +162,7 @@ export default function StudioPage() {
               Due generazioni, una visione
             </h2>
 
-            <div className="space-y-8 text-neutral-600 leading-relaxed font-light text-lg">
+            <div className="space-y-8 text-neutral-600 leading-relaxed font-light text-lg text-justify">
               <p>
                 Dal 2016 Federico Chiocchetti si avvicina al mondo dell&apos;architettura
                 attraverso il percorso formativo presso il Politecnico di Torino, un cammino

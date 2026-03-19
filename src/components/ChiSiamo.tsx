@@ -44,7 +44,7 @@ export default function ChiSiamo() {
         </AnimatedSection>
 
         <AnimatedSection delay={300}>
-          <p className="text-lg md:text-xl text-neutral-600 leading-relaxed max-w-2xl mx-auto font-light">
+          <p className="text-lg md:text-xl text-neutral-600 leading-relaxed max-w-2xl mx-auto font-light text-justify">
             Dal 1989 svolge servizi di progettazione architettonica ed urbanistica
             per clienti pubblici e privati.
           </p>

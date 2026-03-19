@@ -6,9 +6,12 @@ import AnimatedSection from "./AnimatedSection";
 
 const loghi = [
   { name: "Provincia di Vercelli", file: "Provincia_di_Vercelli-Stemma.svg.png" },
+  { name: "Enel Green Power", file: "enel-green-power-logo.png.resize.282.206.center.center.png" },
+  { name: "Versalis", file: "logoVersalis.jpg" },
+  { name: "Comune di Crescentino", file: "Crescentino-Stemma.webp" },
   { name: "Comune di Santhià", file: "santhia-stemma.png" },
   { name: "Comune di Brusasco", file: "brusasco-stemma.png" },
-  { name: "Comune di Trino", file: "trino_960x480_03.jpg" },
+  { name: "Comune di Trino", file: "Trino-Stemma.webp" },
   { name: "Comune di Asigliano Vercellese", file: "Asigliano_Vercellese-Stemma.png" },
   { name: "Comune di Balocco", file: "Balocco-Stemma.png" },
   { name: "Comune di Carisio", file: "Carisio-Stemma.png" },
@@ -36,8 +39,6 @@ const loghi = [
   { name: "Comune di Rive", file: "stemmacomunedirive.png" },
   { name: "Comune di Villamiroglio", file: "Villamiroglio-Stemma.png" },
   { name: "Comune di Viverone", file: "Viverone-Stemma.png" },
-  { name: "Enel Green Power", file: "enel-green-power-logo.png.resize.282.206.center.center.png" },
-  { name: "Versalis", file: "logoVersalis.jpg" },
 ];
 
 export default function CiHannoScelto() {

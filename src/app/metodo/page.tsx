@@ -139,7 +139,7 @@ export default function MetodoPage() {
               isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            <div className="space-y-6 text-neutral-600 leading-relaxed font-light">
+            <div className="space-y-6 text-neutral-600 leading-relaxed font-light text-justify">
               <p>
                 Lo Studio affianca i propri committenti instaurando un rapporto di fiducia
                 e dialogo, trasformando il progetto in un percorso condiviso. Dall&apos;ascolto
@@ -236,7 +236,7 @@ export default function MetodoPage() {
                     </h3>
 
                     {/* Description */}
-                    <p className="text-neutral-500 font-light leading-relaxed text-sm">
+                    <p className="text-neutral-500 font-light leading-relaxed text-sm text-justify">
                       {fase.descrizione}
                     </p>
                   </div>

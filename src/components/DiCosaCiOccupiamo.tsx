@@ -31,7 +31,7 @@ export default function DiCosaCiOccupiamo() {
         </AnimatedSection>
 
         <AnimatedSection delay={300}>
-          <p className="text-lg md:text-xl text-neutral-600 leading-relaxed max-w-2xl mx-auto font-light">
+          <p className="text-lg md:text-xl text-neutral-600 leading-relaxed max-w-2xl mx-auto font-light text-justify">
             Diamo forma alle idee, seguendo ogni progetto dal concept iniziale
             fino alla definizione dei dettagli costruttivi e dei materiali che lo
             rendono unico.
