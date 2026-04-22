@@ -92,8 +92,23 @@ export default function Footer() {
           <p className="text-neutral-600 text-xs tracking-wider font-light">
             © {new Date().getFullYear()} Studio Chiocchetti Architettura
           </p>
+          <div className="flex items-center gap-4">
+            <Link
+              href="/privacy-policy"
+              className="text-neutral-600 hover:text-neutral-400 text-xs tracking-wider font-light transition-colors duration-300"
+            >
+              Privacy Policy
+            </Link>
+            <span className="text-neutral-700 text-xs">|</span>
+            <Link
+              href="/cookie-policy"
+              className="text-neutral-600 hover:text-neutral-400 text-xs tracking-wider font-light transition-colors duration-300"
+            >
+              Cookie Policy
+            </Link>
+          </div>
           <p className="text-neutral-700 text-xs tracking-wider font-light">
-            P.IVA 00000000000
+            P.IVA 02644220226
           </p>
         </div>
       </div>
